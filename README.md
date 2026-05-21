@@ -62,9 +62,6 @@ Three cassette players are placed around the apartment. Each accepts only its ma
 
 ## Required Unreal Engine Features
 
-### Custom Substrate Material
-`M_FailingSimulation` is a two-layer Substrate material applied to the walls surrounding the exit door. The material blends between a worn retro wallpaper surface and a metallic emissive underlayer using a `BreakdownAmount` scalar parameter. This supports the narrative by showing that the apartment is a constructed skin placed over an artificial chamber. The material is positioned in the highest-impact storytelling area of the level — directly around the final exit.
-
 ### Niagara VFX
 `NS_CassetteInsert` I added a simple glitch effect to the cassette players. It triggers on successful fragment input, which directly tied to a modify interaction completing. The effect produces a short burst of bright glitch style sparks at the cassette slot, providing clear world state feedback that the insertion was accepted. This is good for gameplay feedback effect rather than just an ambient decoration.
 
